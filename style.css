@@ -191,13 +191,13 @@ body {
   }
   
   .daniel,.patrick{
-    height: 70vh;
+    height: 400px;
   }
   .jonathan,.jeanette{
-    height: 45vh;
+    height: 250px;
   }
   .kira{
-    height: 85vh;
+    height: 470px;
   }
  
 }
@@ -230,13 +230,13 @@ body {
   }
   
   .daniel,.patrick{
-    height: 80vh;
+    height: 450px;
   }
   .jonathan,.jeanette{
-    height: 50vh;
+    height: 270px;
   }
   .kira{
-    height: 100vh;
+    height: 570px;
   }
  
 }
@@ -246,15 +246,15 @@ body {
    .property{
      width: 60vw;
    }
-  .daniel,.patrick{
-    height: 80vh;
+  /* .daniel,.patrick{
+    height: 450px;
   }
   .jonathan,.jeanette{
-    height: 50vh;
+    height: 270px;
   }
   .kira{
-    height: 100vh;
-  }
+    height: 570px;
+  } */
 }
 
 @media (max-width: 385px) {
@@ -262,13 +262,13 @@ body {
     width: 60vw;
   }
  .daniel,.patrick{
-   height: 90vh;
+   height: 500px;
  }
  .jonathan,.jeanette{
-   height: 50vh;
+   height: 300px;
  }
  .kira{
-   height: 120vh;
+   height: 650px;
  }
 }
 
@@ -277,12 +277,9 @@ body {
     width: 60vw;
   }
  .daniel,.patrick{
-   height: 100vh;
- }
- .jonathan,.jeanette{
-   height: 60vh;
+   height: 550px;
  }
  .kira{
-   height: 120vh;
+   height: 700px;
  }
 }
