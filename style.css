@@ -171,6 +171,44 @@ body {
 }
 
 @media (max-width: 756px) {
+  body {
+    line-height: 20px;
+    font-size: 13px;
+  }
+
+  .property {
+    width: 50vw;
+    margin: 10px;
+    padding: 15px;
+  }
+
+  .group1 {
+    flex-direction: column;
+  }
+
+  .flexy2 {
+    flex-direction: column;
+  }
+  
+  .daniel,.patrick{
+    height: 70vh;
+  }
+  .jonathan,.jeanette{
+    height: 45vh;
+  }
+  .kira{
+    height: 85vh;
+  }
+ 
+}
+
+@media (max-width:572px) {
+  .property{
+    width: 60vw;
+  }
+}
+
+@media (max-width: 540px) {
 
   body {
     line-height: 20px;
@@ -209,12 +247,42 @@ body {
      width: 60vw;
    }
   .daniel,.patrick{
-    height: 100vh;
+    height: 80vh;
   }
   .jonathan,.jeanette{
-    height: 70vh;
+    height: 50vh;
   }
   .kira{
-    height: 120vh;
+    height: 100vh;
   }
+}
+
+@media (max-width: 385px) {
+  .property{
+    width: 60vw;
+  }
+ .daniel,.patrick{
+   height: 90vh;
+ }
+ .jonathan,.jeanette{
+   height: 50vh;
+ }
+ .kira{
+   height: 120vh;
+ }
+}
+
+@media (max-width: 345px) {
+  .property{
+    width: 60vw;
+  }
+ .daniel,.patrick{
+   height: 100vh;
+ }
+ .jonathan,.jeanette{
+   height: 60vh;
+ }
+ .kira{
+   height: 120vh;
+ }
 }
